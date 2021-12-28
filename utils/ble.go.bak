@@ -1,0 +1,30 @@
+package utils
+
+import (
+	"time"
+
+	"tinygo.org/x/bluetooth"
+)
+
+var adapter = bluetooth.DefaultAdapter
+
+func BLE(name string) {
+  	// Enable BLE interface.
+	Must("enable BLE stack", adapter.Enable())
+
+  	// Define the peripheral device info.
+	adv := adapter.DefaultAdvertisement()
+	Must("config adv", adv.Configure(bluetooth.AdvertisementOptions{
+		LocalName: name,
+  }))
+  
+  	// Start advertising
+	Must("start adv", adv.Start())
+
+	println("advertising...")
+	for {
+		// Sleep forever.
+		time.Sleep(time.Hour)
+	}
+
+}

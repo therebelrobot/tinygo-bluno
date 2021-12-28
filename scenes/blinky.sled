@@ -1,0 +1,53 @@
+version: v0.0.1-alpha
+author: Aster (@therebelrobot)
+
+project:
+  frameDelay: 300 # amount of ms to wait between frames
+  looping: true # should loop after reaching the last frame + waiting the frameDelay
+  frameDrop: true # whether it should drop/clear the previous frame before drawing the next
+  sections: # sections are individual square sections of LEDs, order-sensitive
+    - id: 0
+      h: 8
+      w: 8
+      serpentine: true # do alternating rows reverse order?
+    - id: 1
+      h: 8
+      w: 8
+      serpentine: true
+  frames:
+    - - section: 0
+        row: 0
+        col: 0
+        r: 0xff
+        g: 0xff
+        b: 0x00
+      - section: 0
+        row: 1
+        col: 0
+        r: 0xff
+        g: 0xff
+        b: 0x00
+      - section: 1
+        row: 2
+        col: 0
+        r: 0xff
+        g: 0xff
+        b: 0x00
+    - - section: 0
+        row: 0
+        col: 0
+        r: 0xff
+        g: 0xff
+        b: 0x00
+      - section: 0
+        row: 1
+        col: 0
+        r: 0xff
+        g: 0xff
+        b: 0x00
+      - section: 1
+        row: 2
+        col: 0
+        r: 0xff
+        g: 0xff
+        b: 0x00
