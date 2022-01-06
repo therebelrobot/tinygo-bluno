@@ -1,2 +1,2 @@
-# tinygo-bluno
-A test install for tinygo + Beetle BLE (Arduino Uno)
+# tinygo-sandbox
+Utils and applications for TinyGo on microcontrollers (Bluno Beetle, Seeeduino Xiao, etc.)
