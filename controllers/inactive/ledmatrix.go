@@ -1,4 +1,4 @@
-package logic
+package ctrlinactive
 
 // https://create.arduino.cc/projecthub/alankrantas/tinygo-on-arduino-uno-an-introduction-6130f6
 // https://github.com/tinygo-org/drivers/blob/v0.18.0/examples/ws2812/main.go
@@ -17,20 +17,10 @@ import (
 // var leds [128]color.RGBA
 
 func LedMatrix() {
-
-	// data, err := utils.SLed("blinky.sled")
-
-	// if err != nil {
-
-	// 	log.Fatal(err)
-	// }
-
-	// log.Print(data)
+	sysled := machine.LED
+	sysled.Configure(machine.PinConfig{Mode: machine.PinOutput})
 
 	neo := machine.D2
-	led := machine.LED
-	led.Configure(machine.PinConfig{Mode: machine.PinOutput})
-
 	neo.Configure(machine.PinConfig{Mode: machine.PinOutput})
 
 	ws := ws2812.New(neo)
@@ -54,7 +44,7 @@ func LedMatrix() {
 		total = totalFrames
 
 		ws.WriteColors(leds[:])
-		led.Set(frame%4 == 0)
+		sysled.Set(frame%4 == 0)
 		time.Sleep(time.Duration(frameDelay) * time.Millisecond)
 	}
 }

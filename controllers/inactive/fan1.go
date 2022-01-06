@@ -1,4 +1,4 @@
-package logic
+package ctrlinactive
 
 // https://create.arduino.cc/projecthub/alankrantas/tinygo-on-arduino-uno-an-introduction-6130f6
 

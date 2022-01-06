@@ -52,8 +52,10 @@ func SLed(config SLedConfig, frameIndex int) (ledColors []color.RGBA, totalFrame
 		leds[i] = color.RGBA{R: 0x00, G: 0x00, B: 0x00}
 	}
 
-	if frameIndex > len(config.Project.Frames) {
-		return leds, len(config.Project.Frames), config.Project.FrameDelay, nil
+	frameCount := len(config.Project.Frames)
+
+	if frameIndex > frameCount {
+		return leds, frameCount, config.Project.FrameDelay, nil
 	}
 
 	frame := config.Project.Frames[frameIndex]
@@ -80,5 +82,5 @@ func SLed(config SLedConfig, frameIndex int) (ledColors []color.RGBA, totalFrame
 		leds[pixelIndex] = color.RGBA{R: pixel.R, G: pixel.G, B: pixel.B}
 	}
 
-	return leds, len(config.Project.Frames), config.Project.FrameDelay, nil
+	return leds, frameCount, config.Project.FrameDelay, nil
 }

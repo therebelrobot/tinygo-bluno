@@ -3,16 +3,16 @@ package main
 // https://create.arduino.cc/projecthub/alankrantas/tinygo-on-arduino-uno-an-introduction-6130f6
 
 import (
-	// "github.com/therebelrobot/tinygo-bluno/utils"
-	"github.com/therebelrobot/tinygo-bluno/logic"
+	ctrl "github.com/therebelrobot/tinygo-bluno/controllers"
+	utils "github.com/therebelrobot/tinygo-bluno/utils/shared"
 )
 
-// go:embed scenes/*
-// var scenes embed.FS
-
 func main() {
+	utils.LogSetup()
 	// utils.BLE("LED Screen!")
-	logic.LedMatrix()
+	// logic.LedMatrixTrace()
+	ctrl.Display()
+	// logic.LedMatrixMessage()
 	// logic.Fan1() // goroutine
 	// logic.Led2()
 }

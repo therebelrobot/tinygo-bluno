@@ -10,10 +10,26 @@ project:
       h: 8
       w: 8
       serpentine: true # do alternating rows reverse order?
+      display: # display settings for sled composer
+        x: 25
+        y: 1
+        rotation: 90
     - id: 1
       h: 8
       w: 8
       serpentine: true
+      display:
+        x: 17
+        y: 17
+        rotation: -90
+    - id: 2
+      h: 16
+      w: 16
+      serpentine: true
+      display:
+        x: 17
+        y: 17
+        rotation: 180
   frames:
     - - section: 0
         row: 0
