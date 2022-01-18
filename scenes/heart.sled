@@ -1,0 +1,1204 @@
+version: v0.0.1-alpha
+author: Aster (@therebelrobot)
+project:
+  frameDelay: 100
+  looping: true
+  frameDrop: true
+  sections:
+    - id: 0
+      h: 8
+      w: 8
+      serpentine: true
+      display:
+        x: 25
+        y: 9
+        rotation: 90
+    - id: 1
+      h: 8
+      w: 8
+      serpentine: true
+      display:
+        x: 25
+        y: 1
+        rotation: 90
+      pixelOffset: 64
+    - id: 2
+      h: 16
+      w: 16
+      serpentine: true
+      display:
+        x: 1
+        y: 17
+        rotation: -90
+      pixelOffset: 128
+  frames:
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 7
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 7
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 7
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 6
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 7
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 6
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 7
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 6
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 5
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 7
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 6
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 5
+        r: "200"
+        g: "0"
+        b: "0"
+    - - section: 2
+        row: 10
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 5
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 6
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 7
+        col: 7
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 8
+        col: 6
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 9
+        col: 5
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 10
+        col: 4
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 5
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 6
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 7
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 8
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 9
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 10
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 11
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 15
+        col: 12
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 14
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 13
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 12
+        col: 14
+        r: "200"
+        g: "0"
+        b: "0"
+      - section: 2
+        row: 11
+        col: 13
+        r: "200"
+        g: "0"
+        b: "0"

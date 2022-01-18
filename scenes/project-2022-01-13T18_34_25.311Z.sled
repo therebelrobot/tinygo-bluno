@@ -1,0 +1,1526 @@
+version: v0.0.1-alpha
+author: Aster (@therebelrobot)
+project:
+  frameDelay: 100
+  looping: true
+  frameDrop: true
+  sections:
+    - id: 0
+      h: 8
+      w: 8
+      serpentine: true
+      display:
+        x: 25
+        y: 9
+        rotation: 90
+    - id: 1
+      h: 8
+      w: 8
+      serpentine: true
+      display:
+        x: 25
+        y: 1
+        rotation: 90
+      pixelOffset: 64
+    - id: 2
+      h: 16
+      w: 16
+      serpentine: true
+      display:
+        x: 1
+        y: 17
+        rotation: -90
+      pixelOffset: 128
+  frames:
+    - - section: 2
+        row: 1
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 2
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 4
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 5
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 5
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 5
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 5
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a1
+        section: 2
+        row: 7
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 7
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a2
+        section: 2
+        row: 7
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 7
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a3
+        section: 2
+        row: 7
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a4
+        section: 2
+        row: 8
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 9
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a5
+        section: 2
+        row: 8
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 9
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a6
+        section: 2
+        row: 8
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 9
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 11
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 11
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 11
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 11
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a7
+        section: 2
+        row: 11
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a8
+        section: 2
+        row: 12
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 13
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a9
+        section: 2
+        row: 15
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a10
+        section: 1
+        row: 7
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 6
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 15
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 15
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 15
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a11
+        section: 2
+        row: 15
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a12
+        section: 1
+        row: 7
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 6
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 4
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 4
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 4
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a13
+        section: 1
+        row: 3
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a14
+        section: 1
+        row: 3
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+    - - *a1
+      - *a2
+      - *a3
+      - *a4
+      - *a5
+      - *a6
+      - *a7
+      - *a8
+      - *a9
+      - *a10
+      - *a11
+      - *a12
+      - *a13
+      - *a14
+      - section: 2
+        row: 0
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 0
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 0
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 0
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 2
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 2
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 4
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 4
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 4
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 4
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a15
+        section: 2
+        row: 6
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 6
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a16
+        section: 2
+        row: 6
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 6
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a17
+        section: 2
+        row: 6
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a18
+        section: 2
+        row: 10
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 10
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 10
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 10
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 10
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a19
+        section: 2
+        row: 14
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 14
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 14
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 14
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a20
+        section: 2
+        row: 14
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 5
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 5
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 5
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 4
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a21
+        section: 1
+        row: 4
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 0
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 0
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 0
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 0
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+    - - *a1
+      - *a2
+      - *a3
+      - *a7
+      - *a9
+      - *a11
+      - *a15
+      - *a16
+      - *a17
+      - *a18
+      - *a19
+      - *a20
+      - *a21
+      - section: 2
+        row: 0
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 2
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a22
+        section: 2
+        row: 5
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 5
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a23
+        section: 2
+        row: 5
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 5
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a24
+        section: 2
+        row: 5
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 9
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 9
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 9
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 9
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a25
+        section: 2
+        row: 9
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a26
+        section: 2
+        row: 13
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 13
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 13
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 13
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a27
+        section: 2
+        row: 13
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 6
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 6
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 6
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a28
+        section: 1
+        row: 5
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a29
+        section: 1
+        row: 5
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 4
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 3
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 3
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 3
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 0
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+    - - *a15
+      - *a16
+      - *a17
+      - *a18
+      - *a19
+      - *a20
+      - *a22
+      - *a23
+      - *a24
+      - *a25
+      - *a26
+      - *a27
+      - *a28
+      - *a29
+      - section: 2
+        row: 0
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 0
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 2
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 2
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 2
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 2
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a30
+        section: 2
+        row: 4
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 4
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a31
+        section: 2
+        row: 4
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 4
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a32
+        section: 2
+        row: 4
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 8
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 8
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 8
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 8
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a33
+        section: 2
+        row: 8
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a34
+        section: 2
+        row: 12
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 12
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 12
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 12
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a35
+        section: 2
+        row: 12
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 7
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 7
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 7
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a36
+        section: 1
+        row: 6
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - &a37
+        section: 1
+        row: 6
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 4
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 4
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 4
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 0
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 0
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 0
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+    - - *a22
+      - *a23
+      - *a24
+      - *a25
+      - *a26
+      - *a27
+      - *a30
+      - *a31
+      - *a32
+      - *a33
+      - *a34
+      - *a35
+      - *a36
+      - *a37
+      - section: 2
+        row: 0
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 1
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 3
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 7
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 7
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 7
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 7
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 7
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 11
+        col: 10
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 11
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 11
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 11
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 11
+        col: 14
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 15
+        col: 13
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 15
+        col: 12
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 2
+        row: 15
+        col: 11
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 7
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 7
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 5
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 5
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 5
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 3
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 3
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 3
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 3
+        col: 5
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 2
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 2
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 3
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 1
+        col: 4
+        r: 184
+        g: 233
+        b: 134
+        a: 1
+      - section: 1
+        row: 0
+        col: 1
+        r: 184
+        g: 233
+        b: 134
+        a: 1

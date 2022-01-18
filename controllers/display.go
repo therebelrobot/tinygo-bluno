@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	display "github.com/therebelrobot/tinygo-bluno/utils/xiaoexpansion/display"
+	display "github.com/therebelrobot/tinygo-sandbox/utils/xiaoexpansion/display"
 )
 
 func Display() {
@@ -59,8 +59,7 @@ func Display() {
 				strconv.FormatInt(int64(x), 10)+
 				"\n"+
 				"Say hello!\n"+
-				"thenewcryptid",
-			color.RGBA{100, 100, 100, 255})
+				"thenewcryptid")
 
 		if blink {
 			display.DottedRect(screen, 118, 126, 40, 62, color.RGBA{255, 255, 255, 255})

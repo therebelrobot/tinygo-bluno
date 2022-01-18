@@ -2,10 +2,10 @@ PWD = $(shell pwd)
 # parameters:
 # in: the input file, sans extension (e.g. blinky or *)
 build:
-	tinygo build -serial=usb -target=xiao -scheduler=coroutines -o ./$(in).build.bin ./$(in).go
+	tinygo build -serial=usb -target=xiao -scheduler=tasks -o ./$(in).build.bin ./$(in).go
 
 flash:
-	tinygo flash -serial=usb -target=xiao -scheduler=coroutines ./$(in).go
+	tinygo flash -serial=usb -target=xiao -scheduler=tasks ./$(in).go
 
 buildtrace:
 	tinygo build -target=arduino -scheduler=coroutines -o ./$(in).build.bin ./$(in).go

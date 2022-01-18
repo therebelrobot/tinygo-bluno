@@ -8,8 +8,8 @@ import (
 	"machine"
 	"time"
 
-	"github.com/therebelrobot/tinygo-bluno/scenes"
-	"github.com/therebelrobot/tinygo-bluno/utils"
+	"github.com/therebelrobot/tinygo-sandbox/scenes"
+	"github.com/therebelrobot/tinygo-sandbox/utils"
 
 	"tinygo.org/x/drivers/ws2812"
 )
